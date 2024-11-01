@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    int i=0;
+    
+   
+    int a=67854;
+    int b=45876;
+     cout<<"Є два числа одне"<<a<<"друге"<<b<<endl;
+    do{
+    if(i==0){
+    cout<<b<< endl;}
+    else if(i==1){
+    cout<<a<< endl;}
+    i++;
+    }while ( i < 2 );
+    
+}
